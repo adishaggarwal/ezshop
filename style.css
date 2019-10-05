@@ -176,9 +176,10 @@
 #advertise{
     position: relative;
     z-index: 1;
-    top:100px;
+    top:19vh;
     color: #fff;
     left: 25px;
+    font-size: 18px;
 }
 #advertise p:nth-child(1)
 {
