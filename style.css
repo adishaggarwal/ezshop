@@ -212,8 +212,8 @@
 }
 .footer div{
     text-align: center;
-    padding: 0 5px;
+    padding: 0 3.5px;
 }
-.footer i,.footer p{
+.footer i,.footer a{
     color: #a9a9a9;
 }
