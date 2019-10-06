@@ -75,7 +75,9 @@ function photos()
     modal2.innerHTML=``;
     }
                             i=i+1;
-    }, 800);
+    }, 750);
+
+    
 
 
 
