@@ -4,7 +4,8 @@ var img3=document.getElementById("img3");
 var img4=document.getElementById("img4");
 
 
-$(document).ready(function(){
+function photos()
+{
     img01();
 
     function img01()
@@ -37,7 +38,7 @@ function openapp()
 {
     img4.style.display='none';
 }
-});
+};
 
 
 
