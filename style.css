@@ -112,7 +112,7 @@
     width: 95vw;
     height: 90vh;
     z-index: 2;
-    background: rgba(0,0 , 0, 0.3);
+    background: rgba(0,0 , 0, 0.1);
 }
 
 #modal2{
@@ -122,9 +122,11 @@
     left:25vw;
 }
 #modal2 p{
-    color: white;
+    color:#ffff27;
     font-size: 30px;
     font-weight: 600;
+    font-family: 'Big Shoulders Display', cursive;
+
 }
 
 #img2{
