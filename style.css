@@ -87,6 +87,27 @@
     margin-right: 9px;
     }
 
+/*MODAL*/
+
+.modal{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.modal img{
+    height: 95vh;
+    width: 95vw;
+}
+
+
+
+
+
 
 /*PAGE 2*/
 
@@ -216,4 +237,34 @@
 }
 .footer i,.footer a{
     color: #a9a9a9;
+}
+
+
+/*page4 more*/
+.p4{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.p4 .rr{
+    position: relative;
+    top:3.5vh;
+    left: 95vw;
+}
+.p4 .rs{
+    position: relative;
+    top:3.5vh;
+    left:1vw;
+}
+.rr{
+    margin: 0;
+}
+.p4 button{
+    background: #fff;
+}
+
+.p4 button:nth-child(10)
+{
+    margin-top: 30px;
 }
