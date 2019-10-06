@@ -10,7 +10,7 @@ function photos()
 
     function img01()
 {
-    setTimeout(img02,3000);
+    setTimeout(img02,6000);
 }
  
 function img02()
