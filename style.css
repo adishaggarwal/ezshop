@@ -112,7 +112,7 @@
     width: 95vw;
     height: 90vh;
     z-index: 2;
-    background: rgba(0,0 , 0, 0.2);
+    background: rgba(0,0 , 0, 0.3);
 }
 
 #modal2{
@@ -122,8 +122,9 @@
     left:25vw;
 }
 #modal2 p{
-    color: red;
+    color: white;
     font-size: 30px;
+    font-weight: 600;
 }
 
 #img2{
