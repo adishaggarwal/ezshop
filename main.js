@@ -6,9 +6,8 @@ var img4=document.getElementById("img4");
 
 $(document).ready(function(){
     img01();
-});
 
-function img01()
+    function img01()
 {
     setTimeout(img02,3000);
 }
@@ -38,4 +37,7 @@ function openapp()
 {
     img4.style.display='none';
 }
+});
+
+
 
