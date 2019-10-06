@@ -75,7 +75,7 @@ function photos()
     modal2.innerHTML=``;
     }
                             i=i+1;
-    }, 900);
+    }, 800);
 
 
 
@@ -85,28 +85,28 @@ function photos()
     function img01()
 {
     modal2.innerHTML
-    setTimeout(img02,3000);
+    setTimeout(img02,1800);
 }
  
 function img02()
 {
     img1.style.display='none';
     img2.style.display='block';
-    setTimeout(img03,2000);
+    setTimeout(img03,1800);
 }
 
 function img03()
 {
     img2.style.display='none';
     img3.style.display='block';
-    setTimeout(img04,2000);
+    setTimeout(img04,1800);
 }
 
 function img04()
 {
     img3.style.display='none';
     img4.style.display='block';
-    setTimeout(openapp,2000);
+    setTimeout(openapp,1800);
 }
 
 function openapp()
