@@ -104,7 +104,7 @@
     width: 95vw;
 }
 
-#modal1::after{
+#modal1::before{
     content: '';
     position: absolute;
     top: 0;
@@ -112,7 +112,18 @@
     width: 95vw;
     height: 90vh;
     z-index: 2;
-    background: rgba(0,0 , 0, 0.3);
+    background: rgba(0,0 , 0, 0.2);
+}
+
+#modal2{
+    z-index: 2;
+    position: relative;
+    top:30vh;
+    left:25vw;
+}
+#modal2 p{
+    color: red;
+    font-size: 30px;
 }
 
 #img2{
