@@ -2,6 +2,7 @@ var img1=document.getElementById("img1");
 var img2=document.getElementById("img2");
 var img3=document.getElementById("img3");
 var img4=document.getElementById("img4");
+var modal=document.getElementById("modal1");
 
 
 function photos()
@@ -37,6 +38,8 @@ function img04()
 function openapp()
 {
     img4.style.display='none';
+    console.log(modal1);
+    modal1.removeAttribute("id");
 }
 };
 

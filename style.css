@@ -104,6 +104,17 @@
     width: 95vw;
 }
 
+#modal1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95vw;
+    height: 90vh;
+    z-index: 2;
+    background: rgba(0,0 , 0, 0.3);
+}
+
 #img2{
     display: none;
 }
