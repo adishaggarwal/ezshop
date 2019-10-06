@@ -59,15 +59,15 @@ function photos()
         {
     modal2.innerHTML=`<div>
     <p>${array[0]}${array[1]}${array[2]}${array[3]}${array[4]}${array[5]}</p>
-    <p>..keep shopping</p>
+    <p>...keep shopping</p>
     </div>`;
     }
     else if(i==7)
         {
     modal2.innerHTML=`<div>
     <p>${array[0]}${array[1]}${array[2]}${array[3]}${array[4]}${array[5]}</p>
-    <p>..keep shopping</p>
-    <p>keep walking..</p>
+    <p>...keep shopping</p>
+    <p>keep walking...</p>
     </div>`;
     }
     else if(i==8)
