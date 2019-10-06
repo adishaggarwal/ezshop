@@ -3,14 +3,14 @@ var img2=document.getElementById("img2");
 var img3=document.getElementById("img3");
 var img4=document.getElementById("img4");
 
-img01();
+
+$(document).ready(function(){
+    img01();
+});
 
 function img01()
 {
-    img2.style.display='none';
-    img3.style.display='none';
-    img4.style.display='none';
-    setTimeout(img02,2000);
+    setTimeout(img02,3000);
 }
  
 function img02()
