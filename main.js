@@ -5,6 +5,10 @@ var img4=document.getElementById("img4");
 var modal1=document.getElementById("modal1");
 var modal2=document.getElementById("modal2");
 var modal3=document.getElementById("modal3");
+var form1=document.getElementsByClassName("form1");
+var form1mobile=document.getElementById("form1mobile");
+var form1pass=document.getElementById("form1pass");
+var form1submit=document.getElementById("form1submit");
 
 var array = ['E','Z','S','H','O','P'];
 
@@ -118,9 +122,31 @@ function openapp()
     modal1.removeAttribute("id");
     modal1.style.display='none';
     modal2.style.display='none';
-    modal3.style.display='block';
 }
 };
 
+
+form1submit.addEventListener('click',showalert);
+window.addEventListener('click',clearalert);
+
+function clearalert(e)
+{
+    if(e.target==modal3)
+    {
+        modal3.style.display='none';
+    }
+}
+
+function showalert(e)
+{
+    e.preventDefault();
+    if(form1mobile.value !='8195068777' || form1pass.value !='adish' )
+    {
+        modal3.style.display='block';
+    }
+    else{
+        window.location.href='title.html';
+    }
+}
 
 
