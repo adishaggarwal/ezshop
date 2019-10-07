@@ -4,6 +4,7 @@ var img3=document.getElementById("img3");
 var img4=document.getElementById("img4");
 var modal1=document.getElementById("modal1");
 var modal2=document.getElementById("modal2");
+var modal3=document.getElementById("modal3");
 
 var array = ['E','Z','S','H','O','P'];
 
@@ -117,6 +118,7 @@ function openapp()
     modal1.removeAttribute("id");
     modal1.style.display='none';
     modal2.style.display='none';
+    modal3.style.display='block';
 }
 };
 

@@ -138,6 +138,31 @@
     display: none;
 }
 
+/*MODAL3*/
+
+#modal3{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.5);
+}
+
+#modal3-content{
+    background: #fff;
+    text-align: center;
+    margin: 10% auto;
+    width: 20vw;
+    border-radius:10px;
+    padding: 3rem;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+    animation-name: modalopen;
+    animation-duration:1s; 
+}
 
 
 
