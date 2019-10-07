@@ -10,6 +10,8 @@ var form1mobile=document.getElementById("form1mobile");
 var form1pass=document.getElementById("form1pass");
 var form1submit=document.getElementById("form1submit");
 
+
+
 var array = ['E','Z','S','H','O','P'];
 
 var i=0;
@@ -126,27 +128,26 @@ function openapp()
 };
 
 
-form1submit.addEventListener('click',showalert);
-window.addEventListener('click',clearalert);
+form1submit.addEventListener('click',showalert1);
 
-function clearalert(e)
+
+function clearalert1()
 {
-    if(e.target==modal3)
-    {
         modal3.style.display='none';
-    }
 }
 
-function showalert(e)
+function showalert1(e)
 {
     e.preventDefault();
     if(form1mobile.value !='8195068777' || form1pass.value !='adish' )
     {
         modal3.style.display='block';
+        setTimeout(clearalert1,2000);
     }
     else{
         window.location.href='title.html';
     }
 }
+
 
 
