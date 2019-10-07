@@ -166,7 +166,9 @@
 }
 #modal3 img{
     width: 30%;
-    padding: 3px 0;
+    padding:0;
+    padding-top: 6px;
+    padding-bottom: 3px;
     margin: 0;
 }
 
