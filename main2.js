@@ -20,13 +20,13 @@ function clearalert2()
 function showalert2(e)
 {
     e.preventDefault();
-    if( !form2fname.value||!form2lname.value ||!form2pass2.value || !form2mobile.value || !form2pass1.value )
+    if( !form2fname.value||!form2lname.value ||!form2pass2.value || !form2mobile.value || !form2pass1.value ||form2pass1.value!=form2pass2.value)
     {
         modal4.style.display='block';
         setTimeout(clearalert2,2000);
     }
     else{
         modal5.style.display='block';
-        setTimeout(clearalert2,2000);
+        setTimeout(clearalert2,3000);
     }
 }
