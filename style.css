@@ -50,7 +50,7 @@
     flex-direction: row;
 }
 
-.form1 button{
+.form1 button,#modal6submit,#modal6cancel,#modal7confirm,#modal7cancel{
     margin-top: 20px;
     width: 240px;
     padding: 3px;
@@ -61,10 +61,26 @@
     background: black;
     color:#ffff27;
 }
-.form1 button:hover, .form1 button a:hover{
+
+#modal6submit , #modal6cancel,#modal7confirm,#modal7cancel{
+    width: 120px;
+    border-radius: 0;
+    border:#ffff27 solid;
+    color: black;
+    background: #ffff27;
+    margin:30px 10px;
+}
+
+
+.form1 button:hover, .form1 button a:hover,#modal6submit:hover,#modal6cancel:hover,#modal7confirm:hover,#modal7cancel:hover{
     background: #ffff27;
     color:black;
     border: #ffff27 solid;
+}
+#modal6submit:hover ,#modal6cancel:hover{
+    background: black;
+    color: #ffff27;
+    border: black solid;
 }
 
 .form1 i{
@@ -138,9 +154,9 @@
     display: none;
 }
 
-/*MODAL3*/
+/*MODAL3 , MODAL4 , modal5, modal6,modal7*/
 
-#modal3{
+#modal3 , #modal4 , #modal5 , #modal6 , #modal7,#modal8{
     display: none;
     position: fixed;
     z-index: 2;
@@ -152,7 +168,7 @@
     background: rgba(0,0,0,0.5);
 }
 
-#modal3-content{
+#modal3-content,#modal4-content,#modal6-content,#modal5-content,#modal7-content,#modal8-content{
     background: #fff;
     text-align: center;
     margin: 30% auto;
@@ -164,7 +180,41 @@
     animation-name: modalopen;
     animation-duration:1s; 
 }
-#modal3 img{
+#modal6-content,#modal5-content,#modal8-content{
+    width: 70vw;
+    height: 40vh;
+}
+#modal6 p{
+    padding:5px;
+    padding-top: 10px;
+}
+
+#modal6 input,#modal7 input{
+    width: 80%;
+    border: #fff;
+    border-bottom: black solid 1px;
+    padding-left: 30%;
+}
+#modal7-content{
+    width: 70vw;
+    height: 60vh;
+}
+#modal7 input{
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#modal7 p,#modal8 p{
+    padding-top: 10px;
+}
+
+#div1 , #div2{
+    padding-top: 20px;
+}
+#modal7 a{
+    color: black;
+}
+
+#modal3 img,#modal4 img,#modal8 img{
     width: 30%;
     padding:0;
     padding-top: 6px;
@@ -172,13 +222,18 @@
     margin: 0;
 }
 
-#modal3 p{
+#modal3 p,#modal4 p{
     margin-top:10px; 
 }
 
-#modal3 i{
+#modal3 i,#modal4 i{
     font-size: 150%;
     color: #ffff27;
+}
+
+#modal8 i{
+    font-size: 150%;
+    color: green;
 }
 
 
@@ -254,74 +309,8 @@
     }
 
 
-    /*modal4*/
-    #modal4{
-        display: none;
-        position: fixed;
-        z-index: 2;
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        overflow: auto;
-        background: rgba(0,0,0,0.5);
-    }
-    
-    #modal4-content{
-        background: #fff;
-        text-align: center;
-        margin: 30% auto;
-        width: 60vw;
-        height: 30vh;
-        border-radius:10px;
-        padding:0;
-        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
-        animation-name: modalopen;
-        animation-duration:1s; 
-    }
-    #modal4 img{
-        width: 30%;
-        padding:0;
-        padding-top: 6px;
-        padding-bottom: 3px;
-        margin: 0;
-    }
-    
-    #modal4 p{
-        margin-top:10px; 
-    }
-    
-    #modal4 i{
-        padding-top: 4px;
-        font-size: 150%;
-        color: #ffff27;
-    }
-
     /*modal5*/
-    #modal5{
-        display: none;
-        position: fixed;
-        z-index: 2;
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        overflow: auto;
-        background: rgba(0,0,0,0.5);
-    }
-    
-    #modal5-content{
-        background: #fff;
-        text-align: center;
-        margin: 30% auto;
-        width: 70vw;
-        height: 40vh;
-        border-radius:10px;
-        padding:0;
-        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
-        animation-name: modalopen;
-        animation-duration:1s; 
-    }
+
     #modal5 img{
         width: 30%;
         padding:0;
@@ -345,9 +334,6 @@
         color: green;
     }
     
-
-
-
 
 /*PAGE3 TITLE*/
 

@@ -5,10 +5,23 @@ var img4=document.getElementById("img4");
 var modal1=document.getElementById("modal1");
 var modal2=document.getElementById("modal2");
 var modal3=document.getElementById("modal3");
+var modal3id=document.getElementById("modal3id");
 var form1=document.getElementsByClassName("form1");
 var form1mobile=document.getElementById("form1mobile");
 var form1pass=document.getElementById("form1pass");
 var form1submit=document.getElementById("form1submit");
+var modal6=document.getElementById("modal6");
+var form1forgotpass=document.getElementById("form1forgotpass");
+var modal6submit=document.getElementById("modal6submit");
+var modal6cancel=document.getElementById("modal6cancel");
+var modal6mobile=document.getElementById("modal6mobile");
+var modal7=document.getElementById("modal7");
+var modal7confirm=document.getElementById("modal7confirm");
+var modal7cancel=document.getElementById("modal7cancel");
+var modal7otp=document.getElementById("modal7otp");
+var modal7pass1=document.getElementById("modal7pass1");
+var modal7pass2=document.getElementById("modal7pass2");
+var modal8=document.getElementById("modal8");
 
 
 
@@ -141,6 +154,7 @@ function showalert1(e)
     e.preventDefault();
     if(form1mobile.value !='8195068777' || form1pass.value !='adish' )
     {
+        modal3id.innerHTML=` <p>Please fill correct mobile number and password</p>`
         modal3.style.display='block';
         setTimeout(clearalert1,2000);
     }
@@ -148,6 +162,84 @@ function showalert1(e)
         window.location.href='title.html';
     }
 }
+
+form1forgotpass.addEventListener('click',showalert2);
+
+
+function showalert2(e)
+{
+    e.preventDefault();
+        modal6.style.display='block';
+}
+
+modal6submit.addEventListener('click',showalert3);
+modal6cancel.addEventListener('click',clearalert32);
+
+function showalert3(e)
+{
+    var num=modal6mobile.value;
+    if(!num || isNaN(num) || num.length!=10)
+    {
+        modal6.style.display='none';
+        modal3id.innerHTML=` <p>Please fill correct mobile number</p>`
+        modal3.style.display='block';
+        setTimeout(clearalert3,2000);
+    }
+    else
+    {
+        modal6.style.display='none';
+        modal7.style.display='block';
+    }
+
+}
+
+function clearalert3()
+{
+    modal3.style.display='none';
+}
+function clearalert32(e)
+{
+    modal6.style.display='none';
+}
+
+
+
+modal7confirm.addEventListener('click',showalert4);
+modal7cancel.addEventListener('click',clearalert42);
+
+function showalert4(e)
+{
+    var otp=modal7otp.value;
+    var num1=modal7pass1.value;
+    var num2=modal7pass2.value;
+    if(num1!=num2 || otp.length!=4 || isNaN(otp))
+    {
+        modal7.style.display='none';
+        modal3id.innerHTML=` <p>Please fill all the fields correctly</p>`
+        modal3.style.display='block';
+        setTimeout(clearalert4,2000);
+    }
+    else
+    {
+        modal7.style.display='none';
+        modal8.style.display='block';
+        setTimeout(clearalert4,2000);
+    }
+
+}
+
+function clearalert4()
+{
+    modal3.style.display='none';
+    modal8.style.display='none';
+}
+
+function clearalert42(e)
+{
+    modal7.style.display='none';
+}
+
+
 
 
 
