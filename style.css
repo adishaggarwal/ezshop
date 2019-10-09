@@ -63,7 +63,7 @@
 }
 
 #modal6submit , #modal6cancel,#modal7confirm,#modal7cancel{
-    width: 90px;
+    width: 100px;
     border-radius: 0;
     border:#ffff27 solid;
     color: black;
