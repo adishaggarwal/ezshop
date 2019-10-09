@@ -351,7 +351,7 @@
     padding: 0;
     margin-top: 0px;
 }
-#advertise{
+#advertise,#advertise1{
     position: relative;
     z-index: 1;
     top:19vh;
@@ -359,7 +359,7 @@
     left: 25px;
     font-size: 18px;
 }
-#advertise p:nth-child(1)
+#advertise p:nth-child(1),#advertise1 p:nth-child(1)
 {
     font-weight: 600;
 }
@@ -369,7 +369,7 @@
     padding: 0;
 }
 
-#food{
+#food,#moreimg{
     height: 20vh;
     width: 85vw;
     margin: 0;
@@ -402,26 +402,52 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.p4 .rr{
-    position: relative;
-    top:3.5vh;
-    left: 95vw;
-}
-.p4 .rs{
-    position: relative;
-    top:3.5vh;
-    left:1vw;
-}
-.rr{
+.p4 p{
+    padding: 0;
     margin: 0;
 }
-.p4 button{
-    background: #fff;
+
+.p4 .rr1 , .p4 .rr2,.p4 .rr3 , .p4 .rr4{
+    position: relative;
+    left: 45vw;
+}
+.p4 .ll{
+    position: relative;
+    left:-45vw;
+    top: -38vh;
+    color: #ffff27;
+}
+.rr1{
+    top:-36vh;
+}
+.rr2{
+    top: -34vh;
+}
+.rr3{
+    top: -32.5vh;
+}
+.rr4{
+    top: -16.5vh;
 }
 
-.p4 button:nth-child(10)
+
+.p4 button{
+    background: #fff;
+    border: 0.5px black solid; 
+    height: 8vh;
+    padding: 0;
+}
+#p4more{
+    background: black;
+    color: #ffff27;
+}
+
+#p4signout
 {
-    margin-top: 30px;
+    margin-top: 70px;
 }
