@@ -359,6 +359,10 @@
     left: 25px;
     font-size: 18px;
 }
+#advertise1{
+    top: 16vh;
+}
+
 #advertise p:nth-child(1),#advertise1 p:nth-child(1)
 {
     font-weight: 600;
@@ -420,20 +424,20 @@
 .p4 .ll{
     position: relative;
     left:-45vw;
-    top: -38vh;
+    top: -40vh;
     color: #ffff27;
 }
 .rr1{
-    top:-36vh;
+    top:-37vh;
 }
 .rr2{
     top: -34vh;
 }
 .rr3{
-    top: -32.5vh;
+    top: -31vh;
 }
 .rr4{
-    top: -16.5vh;
+    top: -16vh;
 }
 
 
