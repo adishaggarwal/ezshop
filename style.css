@@ -61,6 +61,18 @@
     background: black;
     color:#ffff27;
 }
+#modal9yes,#modal9no{
+    margin: 0;
+    width: 49.2%;
+    color: black;
+    background: #fff;
+    border: white solid;
+    border-top: solid black 1px;
+}
+#modal9no{
+    color: red;
+}
+
 
 #modal6submit , #modal6cancel,#modal7confirm,#modal7cancel{
     width: 100px;
@@ -156,7 +168,7 @@
 
 /*MODAL3 , MODAL4 , modal5, modal6,modal7*/
 
-#modal3 , #modal4 , #modal5 , #modal6 , #modal7,#modal8{
+#modal3 , #modal4 , #modal5 , #modal6 , #modal7,#modal8,#modal9{
     display: none;
     position: fixed;
     z-index: 2;
@@ -168,7 +180,11 @@
     background: rgba(0,0,0,0.5);
 }
 
-#modal3-content,#modal4-content,#modal6-content,#modal5-content,#modal7-content,#modal8-content{
+#modal9{
+    display: block;
+}
+
+#modal3-content,#modal4-content,#modal6-content,#modal5-content,#modal7-content,#modal8-content,#modal9-content{
     background: #fff;
     text-align: center;
     margin: 30% auto;
@@ -203,7 +219,7 @@
     padding-left: 5px;
     padding-top: 10px;
 }
-#modal7 p,#modal8 p{
+#modal7 p,#modal8 p,#modal9 p{
     padding-top: 10px;
 }
 
@@ -214,7 +230,7 @@
     color: black;
 }
 
-#modal3 img,#modal4 img,#modal8 img{
+#modal3 img,#modal4 img,#modal8 img,#modal9 img{
     width: 30%;
     padding:0;
     padding-top: 6px;
