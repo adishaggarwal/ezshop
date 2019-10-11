@@ -467,6 +467,7 @@
 #p4more{
     background: black;
     color: #ffff27;
+    padding-right: 350px;
 }
 
 #p4signout
@@ -500,7 +501,7 @@
 
 #nrdiv2 p{
     position: absolute;
-    left: 44vw;
+    left: 43vw;
     top: 68vh;
     font-weight: 700; 
 }
@@ -508,5 +509,5 @@
 #nrdiv2 p:nth-child(2)
 {
     top: 71vh;
-    left: 36vw;
+    left: 34vw;
 }
