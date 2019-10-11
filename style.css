@@ -405,6 +405,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0;
     padding: 0 50px;
+    margin-top: 8px;
     background: black;
 }
 .footer div{
@@ -525,4 +526,21 @@
     background: black;
     border: black solid;
     height: 8vh;   
+}
+
+#support button{
+    width: 100%;
+    color: #ffff27;
+    background: black;
+    border: black solid;
+    padding-right: 250px;
+    height: 8vh;
+    
+}
+
+#support i{
+    color: #ffff27;
+    position: relative;
+    top: -6vh;
+    left: 1vw;
 }
