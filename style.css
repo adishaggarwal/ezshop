@@ -534,8 +534,11 @@
     border: black solid;
     padding-right: 260px;
     height: 8vh;
-    
 }
+#reportback{
+    padding-right: 200px;
+}
+
 
 #support i,#report .fa-chevron-left{
     color: #ffff27;
