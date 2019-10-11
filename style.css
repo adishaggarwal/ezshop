@@ -68,6 +68,7 @@
     background: #fff;
     border: white solid;
     border-top: solid black 1px;
+    font-weight: 600;
 }
 #modal9no{
     color: red;
@@ -180,9 +181,7 @@
     background: rgba(0,0,0,0.5);
 }
 
-#modal9{
-    display: block;
-}
+
 
 #modal3-content,#modal4-content,#modal6-content,#modal5-content,#modal7-content,#modal8-content,#modal9-content{
     background: #fff;
@@ -473,4 +472,41 @@
 #p4signout
 {
     margin-top: 70px;
+}
+
+/*noresults*/
+
+#nricon{
+    margin-top: 20vh;
+    font-size: 1500%;
+    color:#ffff27; 
+    display: flex;
+    justify-content: center;
+}
+
+#nrdiv button{
+    width: 100%;
+    color: #ffff27;
+    background: black;
+    border: black solid;
+    padding-right: 300px;
+}
+#nrdiv i{
+    color: #ffff27;
+    position: relative;
+    top: -4vh;
+    left: 1vw;
+}
+
+#nrdiv2 p{
+    position: absolute;
+    left: 44vw;
+    top: 68vh;
+    font-weight: 700; 
+}
+
+#nrdiv2 p:nth-child(2)
+{
+    top: 71vh;
+    left: 36vw;
 }
