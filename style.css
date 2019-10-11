@@ -512,3 +512,18 @@
     top: 71vh;
     left: 34vw;
 }
+
+
+/*support*/
+
+.footers button{
+    margin-top: 18vh;
+}
+
+#report{
+    width: 100%;
+    color: #ffff27;
+    background: black;
+    border: black solid;
+    height: 8vh;   
+}

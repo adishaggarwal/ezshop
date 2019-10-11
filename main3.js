@@ -45,4 +45,11 @@ function function5(e)
     window.location.href='noresults.html';
 }
 
+p4support.addEventListener('click',function6);
+
+function function6(e)
+{
+   
+    window.location.href='support.html';
+}
 
