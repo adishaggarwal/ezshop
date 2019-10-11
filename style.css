@@ -520,7 +520,7 @@
     margin-top: 14vh;
 }
 
-#report{
+#reportbtn{
     width: 100%;
     color: #ffff27;
     background: black;
@@ -528,7 +528,7 @@
     height: 8vh;   
 }
 
-#support button{
+#support button,#reportback{
     width: 100%;
     color: #ffff27;
     background: black;
@@ -538,9 +538,68 @@
     
 }
 
-#support i{
+#support i,#report .fa-chevron-left{
     color: #ffff27;
     position: relative;
-    top: -6vh;
+    top: -15vh;
     left: 1vw;
+}
+
+/*report.html*/
+
+#report{
+    background: #fff;
+}
+
+#reportid{
+    margin-top: 50px;
+    padding: 3px;
+    padding-left: 80px;
+    width: 90%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: black solid;
+    margin-left: 0;
+    margin-right: 9px;
+    }
+
+#reportmessage{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 90%;
+    height:40vh ;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    border-radius: 50px;
+    border: black solid;
+}    
+
+#report .fa-list-alt{
+    position: relative;
+    left:15vw;
+    font-size: 120%;
+    top:0.5vh;
+}
+
+#reportsubmit{
+    text-align: center;
+}
+
+#reportsubmit{
+    width: 200px;
+    border-radius: 0;
+    border:black solid;
+    color: #ffff27;
+    background: black;
+    margin:30px 5px;
+    margin-left: 160px;
+    border-radius: 15px;
+}
+
+
+#reportsubmit:hover{
+    background: #ffff27;
+    color:black;
+    border: #ffff27 solid;
 }
