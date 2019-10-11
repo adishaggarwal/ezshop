@@ -169,7 +169,7 @@
 
 /*MODAL3 , MODAL4 , modal5, modal6,modal7*/
 
-#modal3 , #modal4 , #modal5 , #modal6 , #modal7,#modal8,#modal9{
+#modal3 , #modal4 , #modal5 , #modal6 , #modal7,#modal8,#modal9,#modal10,#modal11{
     display: none;
     position: fixed;
     z-index: 2;
@@ -182,8 +182,7 @@
 }
 
 
-
-#modal3-content,#modal4-content,#modal6-content,#modal5-content,#modal7-content,#modal8-content,#modal9-content{
+#modal3-content,#modal4-content,#modal6-content,#modal5-content,#modal7-content,#modal8-content,#modal9-content,#modal10-content,#modal11-content{
     background: #fff;
     text-align: center;
     margin: 30% auto;
@@ -195,7 +194,7 @@
     animation-name: modalopen;
     animation-duration:1s; 
 }
-#modal6-content,#modal5-content,#modal8-content{
+#modal6-content,#modal5-content,#modal8-content,#modal10-content{
     width: 70vw;
     height: 40vh;
 }
@@ -229,7 +228,7 @@
     color: black;
 }
 
-#modal3 img,#modal4 img,#modal8 img,#modal9 img{
+#modal3 img,#modal4 img,#modal8 img,#modal9 img,#modal11 img{
     width: 30%;
     padding:0;
     padding-top: 6px;
@@ -241,7 +240,7 @@
     margin-top:10px; 
 }
 
-#modal3 i,#modal4 i{
+#modal3 i,#modal4 i,#modal11 i{
     font-size: 150%;
     color: #ffff27;
 }
@@ -326,7 +325,7 @@
 
     /*modal5*/
 
-    #modal5 img{
+    #modal5 img,#modal10 img{
         width: 30%;
         padding:0;
         padding-top:6px;
@@ -334,17 +333,17 @@
         margin: 0;
     }
     
-    #modal5 p{
+    #modal5 p ,#modal10 p{
         margin-top:10px; 
         margin-bottom: 0;
         padding-bottom: 0;
     }
-    #modal5p2{
+    #modal5p2,#modal10p2{
         margin: 0;
         padding: 0;
     }
     
-    #modal5 i{
+    #modal5 i,#modal10 i{
         font-size: 150%;
         color: green;
     }
@@ -540,8 +539,8 @@
 
 #support i,#report .fa-chevron-left{
     color: #ffff27;
-    position: relative;
-    top: -15vh;
+    position: absolute;
+    top: 2vh;
     left: 1vw;
 }
 
@@ -549,6 +548,10 @@
 
 #report{
     background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #reportid{
@@ -566,7 +569,6 @@
 
 #reportmessage{
     margin-top: 20px;
-    margin-left: 40px;
     width: 90%;
     height:40vh ;
     padding-bottom: 200px;
@@ -576,10 +578,10 @@
 }    
 
 #report .fa-list-alt{
-    position: relative;
-    left:15vw;
+    position: absolute;
+    top:18vh;
     font-size: 120%;
-    top:0.5vh;
+    left:10vw;
 }
 
 #reportsubmit{
@@ -593,7 +595,6 @@
     color: #ffff27;
     background: black;
     margin:30px 5px;
-    margin-left: 160px;
     border-radius: 15px;
 }
 

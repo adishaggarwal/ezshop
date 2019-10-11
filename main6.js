@@ -1,16 +1,35 @@
-var supportbtn=document.getElementById("supportbtn");
-var reportbtn=document.getElementById("reportbtn");
+var reportsubmit=document.getElementById("reportsubmit");
+var reportback=document.getElementById("reportback");
+var modal10=document.getElementById("modal10");
+var reportid=document.getElementById("reportid");
+var reportmessage=document.getElementById("reportmessage");
 
-supportbtn.addEventListener('click',ff1);
+reportback.addEventListener('click',fe1);
 
-function ff1(e)
+function fe1(e)
 {
-    window.location.href='more.html';
+    window.location.href='support.html';
 }
 
-reportbtn.addEventListener('click',ff2);
+reportsubmit.addEventListener('click',fe2);
 
-function ff2(e)
+function fe2(e)
 {
-    window.location.href='report.html';
+    if(!reportmessage.value ||reportid.value.length!=10)
+    {
+        modal11.style.display='block';
+        setTimeout(clearfe2,2000);
+    }
+    else
+    {
+        modal10.style.display='block';
+    setTimeout(clearfe2,2000);
+        
+    }
+}
+
+function clearfe2()
+{
+    modal10.style.display='none';
+    modal11.style.display='none';
 }
