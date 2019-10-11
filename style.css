@@ -467,7 +467,7 @@
 #p4more{
     background: black;
     color: #ffff27;
-    padding-right: 270px;
+    padding-right: 250px;
 }
 
 #p4signout
@@ -491,11 +491,12 @@
     background: black;
     border: black solid;
     padding-right: 200px;
+    height: 8vh;
 }
 #nrdiv i{
     color: #ffff27;
     position: relative;
-    top: -4vh;
+    top: -6vh;
     left: 1vw;
 }
 
