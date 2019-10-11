@@ -517,7 +517,7 @@
 /*support*/
 
 .footers button{
-    margin-top: 18vh;
+    margin-top: 14vh;
 }
 
 #report{
@@ -533,7 +533,7 @@
     color: #ffff27;
     background: black;
     border: black solid;
-    padding-right: 250px;
+    padding-right: 260px;
     height: 8vh;
     
 }
