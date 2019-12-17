@@ -4,6 +4,6 @@ nrtransactions.addEventListener('click',f1);
 
 function f1(e)
 {
-    window.location.href='more.html';
+    window.location.href='title.html';
 }
 

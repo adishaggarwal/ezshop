@@ -23,7 +23,16 @@
         <p>Hello,Adi</p>
         <p>Wallet balance: 0$</p>
         <p>Scan QR to shop</p>
-        <img id="qr" src="qr.png" alt="">
+
+
+
+        <input type="text" id="qr-data" style="color:#000"  onchange="generateQR()">
+        <div id="qrcode"></div>
+        
+
+
+
+
         <p id="no">6989</p>
         <p>Refresh to shop again</p>
         <p>Pull down to refresh QR code</p>
@@ -61,13 +70,27 @@
     </div>
    
 
-
+    <script src="qrcode.min.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.1.1.js"
     integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
     crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="main.js"></script>
+    <script>
+        var qrdata=document.getElementById('qr-data');
+        var qrcode=new QRCode(document.getElementById("qrcode"));
+        
+    
+        function generateQR()
+        {
+             
+            var data=qrdata.value;
+            qrcode.makeCode(data);
+            qrdata.style.color='white';
+           
+        }
+    </script>
 </body>
 </html>
 
